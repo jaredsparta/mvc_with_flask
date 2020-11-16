@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block header %}
+
+<h1>{% block title %}Index{% endblock %}</h1>
+
+{% endblock %}
+
+
+{% block content %}
+<div id="myHTMLWrapper">
+
+    
+    <script>
+  var wrapper = document.getElementById("myHTMLWrapper");
+
+  var myHTML = '';
+
+  for (var i = 0; i < 10; i++) {
+    myHTML += '<span class="test">Testing out my script! loop #' + (i + 1) + '</span><br/><br/>';
+  }
+
+  wrapper.innerHTML = myHTML
+
+</script>
+    </div>
+{% endblock %}

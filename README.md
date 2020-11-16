@@ -48,3 +48,9 @@
     if __name__ == "__main__":
         app.run(debug=True)
 ```
+
+**HTML**
+- Naming conventions are essential
+- To use HTML templates, we need to create a `templates` folder in our directory
+- Flask looks for this specific folder and anything inside it
+- We will create an `index.html` file inside our templates folder
